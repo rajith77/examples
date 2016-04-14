@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="fuse-examples" >
+    <feature name='sap'>
+        <feature>camel-core</feature>
+        <feature>camel-jackson</feature>
+        <!-- Project Level Provisions -->
+        <bundle>mvn:lk.rajith/sap/0.0.1-SNAPSHOT</bundle>
+    </feature>
+</features>
